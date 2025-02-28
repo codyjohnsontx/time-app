@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>You got the watch but we got the time</h1>
       <button>Boop button</button>
       <h1>Its currently {time}</h1>
     </>

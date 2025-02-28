@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# Watch Time Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to my time app! As a watch lover with an affinity for timepieces, I created this application to solve common challenges in setting and using mechanical watches. This tool provides several time-related utilities in one convenient place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### Watch Setting Assistant
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Precise current time display for accurate watch setting
+- Visual reference to help align hour, minute, and second hands
+- Synchronization countdown to help set your watch to the exact second
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Time Format Conversions
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 24-hour to 12-hour time conversion (and vice versa)
+- Easy-to-read format that helps with watches using either display type
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Time Zone Utilities
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Convert times between multiple international time zones
+- UTC reference clock for world time watches
+- Time zone difference calculator for travel planning
+
+### Watch Enthusiast Tools
+
+- Sunrise/sunset times for watches with day/night indicators
+- Moon phase information for lunar complication watches
+- Date change warning to prevent setting watches during date change danger zones
+
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies with `npm install`
+3. Run the application with `npm start`
+
+## Technologies Used..so far
+
+- React.js for the frontend interface
+
+## Future Plans
+
+- Add watch accuracy tracking functionality
+- Implement watch collection management features
+- Create a mobile app version for on-the-go use
+
+## Contributing
+
+Feel free to submit pull requests or suggest new features that would benefit watch enthusiasts.
+
+## License
+
+MIT License - See LICENSE file for details
